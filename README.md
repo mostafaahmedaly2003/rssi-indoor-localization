@@ -2,6 +2,16 @@
 
 > Machine learning system that predicts indoor position from WiFi signal strength (RSSI) fingerprints using KNN, MLP, and SVM classifiers.
 
+## Demo
+
+### Training Pipeline (`python main.py`)
+![Training Demo](outputs/demo_training.gif)
+
+### Flask API in Action (`python app.py`)
+![API Demo](outputs/demo_api.gif)
+
+---
+
 ## Results
 
 | Model | Accuracy | Mean Distance Error |
